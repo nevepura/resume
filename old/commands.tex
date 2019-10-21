@@ -1,0 +1,39 @@
+%\usepackage{}
+
+\definecolor{date}{HTML}{666666} 
+\definecolor{primary}{HTML}{191919} 
+\definecolor{headings}{HTML}{025178}
+\definecolor{subheadings}{HTML}{002648}
+
+
+
+\newcommand{\colored}[1]{
+	\color{red}{#1}
+}
+
+%\newcommand{\workEntry}[6]{		     
+%
+%\noindent {\color{subheadings}\bfseries\uppercase {#1}} -  {\color{subheadings}#2}  
+%\hfill  {\color{headings}\fontsize{10pt}{12pt}#3}   
+%\par
+%\noindent {\color{subheadings}\textit{#6}} \par 
+%\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+%\normalsize \par         
+%
+%}
+
+
+
+\newcommand{\workentry}[5]{
+% Ruolo 
+\textbf{#1} 
+\hfill 
+% Periodo
+\textit{#3} \newline
+%Azienda e luogo
+\textbf{#2} \newline
+% Descrizione
+#4 \newline
+% Links
+#5 \newline
+}

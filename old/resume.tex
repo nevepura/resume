@@ -1,11 +1,15 @@
 \documentclass{article}
 
+
+
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[italian]{babel}
 
 \usepackage{hyperref}
 \hypersetup{colorlinks,urlcolor=blue}
+
+\input{commands.tex}
 
 \begin{document}
 \section{Test}
@@ -22,15 +26,23 @@
 		cellulare  & +39 348 9202662
 	\end{tabular}
 
-\section*{Lavoro}
+\section*{Esperienze lavorative}
+
+% TEST---------------
+\workentry{Sviluppatore software}{\hfill presso RiskApp S.r.l - Conselve (PD)}{18 agosto - 15 sett}
+{Ho sviluppato un algoritmo di apprendimento automatico per l'individuazione di tabelle nei documenti.  Ciò ha incluso: ricerca di dataset, parsing di annotazioni con Python, allenamento e tuning di reti neurali con la suite di TensorFlow, Microsoft Azure per lavorare in remoto.}
+{Codice: \url{https://github.com/nevepura/TableTrainNet}}
+% TEST---------------
+
 \subsection*{Sviluppatore software, area deep learning}
 presso : RiskApp S.r.l\\
 {Giugno 2018 - Agosto 2018}
 {}\\
-Ho sviluppato un algoritmo di apprendimento automatico per l'individuazione di tabelle nei documenti. Ciò ha incluso: ricerca di dataset, parsing di annotazioni con Python, allenamento e tuning di reti neurali con la suite di TensorFlow, Microsoft Azure per lavorare in remoto.\\
+Ho sviluppato un algoritmo di apprendimento automatico per l'individuazione di tabelle nei documenti.  Ciò ha incluso: ricerca di dataset, parsing di annotazioni con Python, allenamento e tuning di reti neurali con la suite di TensorFlow, Microsoft Azure per lavorare in remoto.\\
 Link: \url{https://github.com/nevepura/TableTrainNet}
 
-{Conselve, PD}
+{Conselve, PD}\\
+
 
 \subsection*{Ground handler}
 {Italian Ho.St}\\
@@ -65,7 +77,7 @@ Laurea triennale in Informatica {Settembre 2014 - Settembre 2019}{Universit\`a d
 \section*{Competenze}
 OOP: C++, Qt, Java\\
 Scripting: Python3\\
-Web: Html, Css\\
+Web dev: Html, Css\\
 Lingue: Italiano, Inglese, Spagnolo, Giapponese.\\
 
 \end{document}
